@@ -48,10 +48,11 @@ Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Option Explicit
 
+
 Private Sub cmdAutor_Click()
-    MsgBox "Autor" & vbCrLf & "Herley Nicolas Ramos Sanchez" & vbCrLf & _
-            "e-mail: Nicolas.MCP@gmail.com" & vbCrLf & vbCrLf & _
-            "Licença GNU GPL (Software Livre)", vbOKOnly, "Autor"
+    MsgBox "Autor: Nicolas Ramos" & vbCrLf & _
+            "e-mail: nicolas@infodata.xyz" & vbCrLf & vbCrLf & _
+            "Licença GNU GPL 2 (Software Livre)", vbOKOnly, "Autor"
 
 End Sub
 
